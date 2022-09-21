@@ -6,15 +6,6 @@
     text-decoration: none;
     list-style: none;
 }
-
-.clear {
-    clear:both;
-}
-
-/* .row {
-    margin-left: -10px;
-    margin-right: -10px;
-} */
 .menu {
     background-color: #303030;
     text-align: right;
@@ -33,7 +24,6 @@
     height: auto;
 }
 .menu li {
-    position: relative;
     display: inline-block;
     margin-left: 18px;
     text-shadow: 0 1px 2px rgb(255, 255, 255/30%);
@@ -49,14 +39,8 @@
 /* Kết thúc menu */
 
 /* Bắt đầu navigation bar */
-nav {
-    position: fixed;
-    width: 100%;
-    height: 65px;
-}
 
 .navbar {
-    /* position: relative; */
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -65,6 +49,7 @@ nav {
     margin-top: 12px;
     padding-left: 10px;
     padding-right: 10px;
+    position: relative;
 }
 
 .navbar .navbar-logo {
@@ -89,10 +74,8 @@ nav {
 .navbar .navbar-center {
     width: 100%;
     height: 100%;
-    /* position: relative; */
 }
 .navbar .navbar-center li {
-    /* position: relative; */
     display: inline-block;
     padding: 0px 15px;
     width: auto;
@@ -120,16 +103,41 @@ nav {
     position: absolute;
     background: #444;
     width: 100%;
-    height: 100%;
+    min-height: 100px;
     display:none;
 }
-.navbar-center .dropdown:hover .mega-menu {
+.mega-menu .mega-content {
+    background: #444;
+    display:flex;
+    padding: 25px 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+.mega-content .mega-row {
+    width:100%;
+    line-height: 45px;
+    display: ;
+}
+.mega-content .mega-row header {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.mega-content .mega-row .mega-links {
+    margin-left: 0px;
+    border-left: solid rgb(255, 255, 255/30%);
     display: block;
 }
-.menu-sub li {
+nav .navbar-center .dropdown:hover .mega-menu {
+    display: flex;
+}
+.mega-row .mega-links li a {
+    padding: 0 20px;
+    color: #d9d9d9;
+    font-size: 17px;
     display: block;
 }
-
 /* Thanh tìm kiếm */
 .box {
     max-width: 200px;

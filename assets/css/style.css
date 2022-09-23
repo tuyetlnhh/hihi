@@ -45,13 +45,13 @@
     align-items: center;
     margin-bottom: 0px;
     margin-top: 12px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     position: relative;
 }
 
 .navbar .navbar-logo {
-    padding-left: 100px;
+    padding-left: 65px;
     padding-top: 20px;
 }
 .navbar .navbar-logo img {
@@ -69,7 +69,7 @@
     height: 22px;
 }
 .navbar .navbar-center {
-    padding-left: 60px;
+    padding-left: 50px;
     padding-top: 20px;
     width: 100%;
     height: 100%;
@@ -80,11 +80,12 @@
     padding: 0px 8px;
     width: auto;
     text-align: center;
+    height: 100%;
 }
 .navbar-center .fa-angle-down {
     padding-top: 0px;
     padding-left: 1px;
-    position:inherit;
+    /* position:inherit; */
 }
 .dropdown-toggle {
     font-family: 'Source Sans Pro', sans-serif;
@@ -93,6 +94,7 @@
     font-weight: 700;
     letter-spacing: 1.5px;
     padding-left: 18px;
+    height: 100%;
 }
 .navbar-center .dropdown:hover .dropdown-toggle{
     color: #f15e2c;
@@ -108,13 +110,14 @@
 }
 .navbar-center 
 .mega-menu {
-    margin-left: -265px;
+    /* border-top: transparent 20px solid;     */
+    padding-top: 20px;
+    left: 0px;
     position: absolute;
     background: #444;
     width: 100%;
     min-height: 100px;
     display:none;
-    /* transition: all 0.5s ease; */
 }
 .mega-menu .mega-content {
     background: #444;
@@ -122,7 +125,6 @@
     padding: 25px 20px;
     width: 100%;
     justify-content: space-between;
-    transition: all 0.5s ease-in-out;
 
 }
 .mega-content .mega-row {
@@ -143,7 +145,10 @@
 }
 nav .navbar-center .dropdown:hover .mega-menu {
     display: flex;
+    padding-top: 20px;
+    background: transparent;
 }
+
 .mega-row .mega-links li {
     padding: 0 20px;
     color: #d9d9d9;
@@ -157,16 +162,16 @@ nav .navbar-center .dropdown:hover .mega-menu {
 .navbar-box{
     max-width: 200px;
     width: 100%;
-    margin-top: 13px;
+    margin-top: 28px;
 }
 .search-box{
     position: relative;
     height: 50px;
     max-width: 50px;
-    margin: auto;
+    margin-left: -38px;
     border-radius: 25px;
     box-shadow: 0px 5px 10px -1px rbga(0, 0, 0, 0.25);
-    /* transition: 0.2s ease-in-out; */
+    transition: all 0.2s ease-in-out;
 }
 .search-box:hover {
     max-width: 380px;

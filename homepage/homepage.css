@@ -79,35 +79,42 @@ div {
 
 /* home menu */
 #home-menu {
-    height: 100px;
+    height: 70vh;
 }
-
-#home-menu h3 {
+#home-menu .hm-background img {
+    width: 100%;
+}
+#home-menu h2 {
     text-align: center;
+    padding: 30px 0px;
 }
 
 /* end home menu */
 
 /* Best seller */
-#bestseller {
-    height: 100px;
-
+#bestseller h2{
+    /* height: 100px; */
+    text-align: center;
+    padding:30px;
 }
 
 /* end Best seller */
 
 /* Banner */
-#banner {
-    height: 100px;
-
+#banner img {
+    width: 100%;
 }
-
 /* End Banner */
 
 /* Instagram news */
-#instagram-news {
-    height: 100px;
-
+#social-media h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#social-media img {
+    width: 95%;
+    padding-left: 40px; 
 }
 
 /* End Instagram news */

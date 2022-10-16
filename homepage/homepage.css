@@ -61,7 +61,6 @@ div {
     padding-left: 20px;
     padding-right: 5px;
 }
-
 .hc-img {
     width: 100%;
 }
@@ -80,15 +79,38 @@ div {
 /* home menu */
 #home-menu {
     height: 70vh;
+    padding-left: 10px;
 }
 #home-menu .hm-background img {
-    width: 100%;
+    max-width: 1200px;
+    filter: grayscale(20%)
 }
 #home-menu h2 {
     text-align: center;
     padding: 30px 0px;
 }
-
+.col-third {
+    position: relative;
+}
+.hm-items {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+}
+.hm-items a {
+    display: block;
+    padding-bottom: 10px;
+    color: white;
+}
+.hm-items .title {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.hm-items .sub {
+    font-size: 13px;
+    font-weight: 500;
+}
 /* end home menu */
 
 /* Best seller */
